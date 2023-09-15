@@ -25,3 +25,15 @@ let countdownInterval = setInterval(updateCountdown, 1000);
 
 // Initial update
 updateCountdown();
+
+
+// Get the down arrow element
+const downArrow = document.getElementById('down-arrow');
+
+// Show the down arrow
+downArrow.style.display = 'block';
+
+// Set a timer to hide the down arrow after 2 seconds
+setTimeout(() => {
+  downArrow.style.display = 'none';
+}, 4000);

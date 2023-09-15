@@ -230,6 +230,19 @@ font-size: 50px;
         font-size: 30px;
         /* Adjust margin for spacing between items */
     }
+
+           .down-arrow {
+               font-size: 80px;
+               /* Adjust the size as needed */
+               color: #ff0000;
+    
+               display: none;
+               /* Initially hide the arrow */
+               animation: fadeOut 6s ease-in-out;
+               /* Add a fade-out animation for 2 seconds */
+    
+    
+           }
 }
 @media (min-width: 375px) and (max-width:767px) {
     h1{

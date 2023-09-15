@@ -44,7 +44,8 @@ body {
 
 .voters > img{
     height: auto;
-    width: 200px;
+    max-width: 200px;
+    min-width: 50px;
     margin: 0 30px;
     border-radius: 5px;
 }
@@ -260,12 +261,14 @@ font-size: 50px;
     #hours,
     #minutes,
     #seconds {
-        font-size: 30px;
-        margin: 20px;
+        font-size: 25px;
+        margin: 20px 20px 10px 20px;
     }
     
     .t{
-        font-size: 20px;
+        font-size: 15px;
+        margin-bottom: 15px;
+        padding: 5px;
     }
 
     .countdown-item {
@@ -274,7 +277,7 @@ font-size: 50px;
         justify-content: center;
         flex-direction: column;
         margin: 10px 10px;
-        height: 40%;
+        height: 30%;
         margin: 20px;
         width: 150px;
         /* Adjust margin for spacing between items */
@@ -299,6 +302,26 @@ font-size: 50px;
             /* Add a fade-out animation for 2 seconds */
     
     
+        }
+
+
+        .voters {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            bottom: 55px;
+        }
+
+        .voters>img {
+            height: auto;
+            max-width: 200px;
+            min-width: 50px;
+            margin: 0 10px;
+            border-radius: 5px;
         }
 
 }

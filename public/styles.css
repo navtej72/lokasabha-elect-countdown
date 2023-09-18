@@ -464,8 +464,9 @@ span {
 
  .voters {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 125px)); /* Adjust the width as needed */
-  gap: 5px; /* Adjust the gap between items as needed */
+  grid-template-columns: 100px 100px; /* Adjust the width as needed */
+  grid-template-rows: 50px 50px; /* Adjust the width as needed */
+  gap: 3px; /* Adjust the gap between items as needed */
   justify-content: center;
   align-items: center;
   max-width: 100%;
@@ -479,7 +480,7 @@ span {
   max-width: 100%;
   align-self: center;
   justify-self: center;
-  height: auto;
+  height: 60px;
 }
 
 .heroes > h2 {

@@ -304,7 +304,7 @@ span {
     /* Add a fade-out animation for 2 seconds */
   }
 }
-@media (min-width: 300px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) {
   h1 {
     font-size: 25px;
     width: 100%;

@@ -257,6 +257,10 @@ span {
   font-size: 50px;
 }
 
+.loc{
+  margin: 0;
+}
+
 /* Media query for screens with a maximum width of 768px (typical mobile screens) */
 @media (min-width: 768px) and (max-width: 1024px) {
   h1 {

@@ -30,17 +30,7 @@ updateCountdown();
 const currentDate = new Date();
 const year = currentDate.getFullYear();
 
- document.getElementById('currentYear').textContent = year;
-// Get the down arrow element
-const downArrow = document.getElementById('down-arrow');
 
-// Show the down arrow
-downArrow.style.display = 'block';
-
-// Set a timer to hide the down arrow after 2 seconds
-setTimeout(() => {
-  downArrow.style.display = 'none';
-}, 4000);
 
 
 // Function to handle scroll events

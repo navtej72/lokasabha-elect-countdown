@@ -140,6 +140,9 @@ margin: 0 auto;
 
 .heroes > h2 {
   font-size: 40px;
+  border: 1px groove rgb(0, 0, 0);
+  margin: 20px;
+  padding: 10px;
 }
 
 .down-arrow {
@@ -240,7 +243,7 @@ span {
   font-size: 46px;
 
   font-weight: normal;
-  margin: 50px;
+  margin: 30px;
 }
 
 #days,
@@ -398,6 +401,8 @@ span {
 
 }
 
+
+
 /* .awareness{
     height: 200px;
     width: auto;
@@ -521,7 +526,7 @@ footer .copy-rights {
 
 #currentYear{
   margin: 0 10px 0 2px;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .voterSearch{
@@ -531,15 +536,21 @@ footer .copy-rights {
 
 .voterSearchInput{
   border: 1px groove gray;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 
 .votersimage{
 
   height: auto;
-  width: 200px;
+  width: 100px;
 }
+
+input::placeholder {
+ font-size: 10px;
+ padding: 0 5px;
+}
+
 
 .voterstable{
 

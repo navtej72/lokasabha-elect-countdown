@@ -495,7 +495,7 @@ span {
 }
 
 
-.just {
+#just1 {
  margin: 20px;
   font-size: 10px;
  
@@ -549,7 +549,7 @@ li {
   height: auto;
   font-size: 50px;
   margin: 50px 0;
-  color: rgb(30, 38, 86);
+  color: rgb(9, 9, 9);
   margin: 80px 0;
   height: auto;
 }

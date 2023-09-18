@@ -400,6 +400,102 @@ span {
 }
 
 }
+@media (min-width: 200px) and (max-width: 374px) {
+  h1 {
+    font-size: 25px;
+    width: 100%;
+    height: 30px;
+    margin: 50px auto 20px auto;
+  }
+  .countdown {
+    height: auto;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    margin: 10px auto 0px auto;
+  }
+
+  .sect1 {
+    height: 60vh;
+  }
+
+  .qoute{
+    width: 95%;
+    font-weight: bold;
+    margin: 10px auto;
+  }
+
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 20px;
+    margin: 35px 20px 15px 20px;
+  }
+  .voters {
+    margin-top: 0px;
+  }
+  .t {
+    font-size: 12px;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+
+  .countdown-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1px 10px;
+    height: 100%;
+    margin: 20px;
+    width: 150px;
+    /* Adjust margin for spacing between items */
+  }
+
+  span {
+    margin: 5px;
+
+    font-size: 25px;
+    /* Adjust margin for spacing between items */
+  }
+
+  .down-arrow {
+    font-size: 80px;
+    /* Adjust the size as needed */
+    color: #000000;
+
+    display: none;
+    /* Initially hide the arrow */
+    animation: fadeOut 6s ease-in-out;
+    /* Add a fade-out animation for 2 seconds */
+    position: absolute;
+    top: 59.5%;
+    left: 45%;
+  }
+
+ .voters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 150px)); /* Adjust the width as needed */
+  gap: 5px; /* Adjust the gap between items as needed */
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 10px;
+  
+}
+
+.voters img {
+  max-width: 100%;
+  align-self: center;
+  justify-self: center;
+  height: auto;
+}
+
+}
 
 
 

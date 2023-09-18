@@ -464,7 +464,7 @@ span {
 
  .voters {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 70px)); /* Adjust the width as needed */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 100px)); /* Adjust the width as needed */
   gap: 5px; /* Adjust the gap between items as needed */
   justify-content: center;
   align-items: center;

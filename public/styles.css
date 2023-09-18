@@ -465,7 +465,7 @@ span {
  .voters {
   display: grid;
   grid-template-columns: 100px 100px; /* Adjust the width as needed */
-  grid-template-rows: 50px 50px; /* Adjust the width as needed */
+  grid-template-rows: 70px 70px; /* Adjust the width as needed */
   gap: 3px; /* Adjust the gap between items as needed */
   justify-content: center;
   align-items: center;
@@ -477,7 +477,7 @@ span {
 }
 
 .voters img {
-  max-width: 100%;
+  max-width: 90px;
   align-self: center;
   justify-self: center;
   height: 60px;

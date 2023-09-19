@@ -51,17 +51,11 @@
     font-size: 30px;
     /* Adjust margin for spacing between items */
   }
+#currentYear{
+  margin: 0 10px 0 2px;
+  font-size: 20px;
+}
 
-  .down-arrow {
-    font-size: 80px;
-    /* Adjust the size as needed */
-    color: #ff0000;
-
-    display: none;
-    /* Initially hide the arrow */
-    animation: fadeOut 6s ease-in-out;
-    /* Add a fade-out animation for 2 seconds */
-  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   h1 {
@@ -102,16 +96,10 @@
     /* Adjust margin for spacing between items */
   }
 
-  .down-arrow {
-    font-size: 80px;
-    /* Adjust the size as needed */
-    color: #ff0000;
-
-    display: none;
-    /* Initially hide the arrow */
-    animation: fadeOut 6s ease-in-out;
-    /* Add a fade-out animation for 2 seconds */
-  }
+#currentYear{
+  margin: 0 10px 0 2px;
+  font-size: 20px;
+}
 }
 
 

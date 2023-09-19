@@ -1,0 +1,384 @@
+@media (min-width: 1444px) and (max-width: 2640px) {
+  h1 {
+    font-size: 5rem;
+    margin: 50px 0;
+    height: auto;
+      background: linear-gradient(to bottom, #ffffff, #000000, #ffffff);
+  -webkit-background-clip: text;
+  /* For webkit-based browsers like Chrome and Safari */
+  color: transparent;
+  -webkit-text-stroke: 0.7px rgb(0, 0, 0);
+  }
+  .sect1 {
+    height: 100vh;
+  }
+
+  .qoute {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+  .countdown {
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin: 90px auto 0px auto;
+  }
+
+  .countdown-item {
+    margin: 10px 30px;
+    max-width: 400px;
+    height: auto;
+    /* Adjust margin for spacing between items */
+  }
+
+  .loc {
+    margin: 0;
+    font-size: 30px;
+}
+
+  .voters {
+    margin: 0;
+    bottom: 60px;
+  }
+
+  span {
+    margin: 20px;
+
+    font-size: 30px;
+    /* Adjust margin for spacing between items */
+  }
+
+  .down-arrow {
+    font-size: 80px;
+    /* Adjust the size as needed */
+    color: #ff0000;
+
+    display: none;
+    /* Initially hide the arrow */
+    animation: fadeOut 6s ease-in-out;
+    /* Add a fade-out animation for 2 seconds */
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2.3rem;
+    margin: 50px 0;
+    height: 50px;
+    background: linear-gradient(180deg, #ffffff, #000000, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+  }
+  .sect1 {
+    height: 100vh;
+  }
+
+  .countdown {
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    margin: 90px auto 0px auto;
+  }
+
+  .countdown-item {
+    margin: 10px 30px;
+
+    /* Adjust margin for spacing between items */
+  }
+
+  .voters {
+    margin: 0;
+    bottom: 60px;
+  }
+
+  span {
+    margin: 20px;
+
+    font-size: 30px;
+    /* Adjust margin for spacing between items */
+  }
+
+  .down-arrow {
+    font-size: 80px;
+    /* Adjust the size as needed */
+    color: #ff0000;
+
+    display: none;
+    /* Initially hide the arrow */
+    animation: fadeOut 6s ease-in-out;
+    /* Add a fade-out animation for 2 seconds */
+  }
+}
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 767px) {
+  h1 {
+    font-size: 25px;
+    width: 100%;
+    height: 30px;
+    margin: 50px auto 20px auto;
+    background: linear-gradient(180deg, #ffffff, #000000, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+  }
+  .countdown {
+    height: auto;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    margin: 10px auto 0px auto;
+  }
+
+  .sect1 {
+    height: 60vh;
+  }
+
+  .qoute{
+    width: 95%;
+    font-weight: bold;
+    margin: 10px auto;
+  }
+
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 20px;
+    margin: 35px 20px 15px 20px;
+  }
+
+  .t {
+    font-size: 12px;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+
+  .countdown-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1px 10px;
+    height: 100%;
+    margin: 20px;
+    width: 150px;
+    /* Adjust margin for spacing between items */
+  }
+
+  span {
+    margin: 5px;
+
+    font-size: 25px;
+    /* Adjust margin for spacing between items */
+  }
+
+
+ .voters {
+  display: grid;
+  grid-template-columns: 200px 200px; /* Adjust the width as needed */
+  grid-template-rows: 100px 100px; /* Adjust the width as needed */
+  gap: 10px; /* Adjust the gap between items as needed */
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 10px;
+  
+}
+
+.voters img {
+  max-width: 170px;
+  align-self: center;
+  justify-self: center;
+  height: 100px;
+}
+
+}
+
+
+
+
+@media (min-width: 200px) and (max-width: 374px) {
+  h1 {
+    font-size: 1.1rem;
+    width: 100%;
+    height: auto;
+    margin: 50px auto 20px auto;
+    background: linear-gradient(180deg, #ffffff, #000000, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+  }
+  .countdown {
+    height: auto;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    margin: 10px auto 15px auto;
+  }
+
+  .vote{
+    height: 120px;
+  }
+
+  .sect1 {
+    height: 70vh;
+  }
+
+  .qoute{
+    width: 95%;
+    font-weight: 400;
+    margin: 5px auto;
+  }
+
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 10px;
+    margin: 5px 5px 5px 5px;
+  }
+
+  .t {
+    font-size: 8px;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+
+  .countdown-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1px 5px;
+    height: 100%;
+    margin:  0 10px;
+    width: 70px;
+    /* Adjust margin for spacing between items */
+  }
+
+  span {
+    margin: 5px;
+
+    font-size: 15px;
+    /* Adjust margin for spacing between items */
+  }
+
+
+ .voters {
+  display: grid;
+  grid-template-columns: 100px 100px; /* Adjust the width as needed */
+  grid-template-rows: 70px 70px; /* Adjust the width as needed */
+  gap: 3px; /* Adjust the gap between items as needed */
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 10px;
+  
+}
+
+.voters img {
+  max-width: 90px;
+  align-self: center;
+  justify-self: center;
+  height: 60px;
+}
+
+.heroes > h2 {
+  font-size: 15px;
+  border: 1px groove rgb(0, 0, 0);
+  margin: 10px;
+  padding: 5px;
+}
+
+.look {
+  height: auto;
+  font-size: 20px;  
+  margin: 10px 0;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  margin: 40px 0;
+  height: auto;
+}
+
+#look1{
+    margin: 10px;
+}
+
+
+#just1 {
+ margin: 16px;
+  font-size: 17px;
+ 
+}
+
+
+footer {
+  background-color: #0e0e1a;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  padding: 3px 22px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex ul {
+  list-style: none;
+}
+
+.flex > div {
+  width: auto;
+}
+
+.footer-first > h3 {
+  background: linear-gradient(94deg, #767676, #ffffff, #767676);
+  color: transparent;
+  -webkit-background-clip: text;
+  letter-spacing: 2px;
+  margin: 0;
+  font-size: 12px;
+}
+
+footer .copy-rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(210, 210, 210);
+  padding: 8px 0;
+  letter-spacing: 2px;
+  width: 100%;
+ font-size: 10px; 
+}
+
+#animated-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#animated-list li {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+font-size: 10px;
+  /* Add other styling as needed */
+}
+
+
+}

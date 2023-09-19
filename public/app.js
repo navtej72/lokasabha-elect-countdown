@@ -30,7 +30,7 @@ updateCountdown();
 const currentDate = new Date();
 const year = currentDate.getFullYear();
 
-
+ document.getElementById('currentYear').textContent = year;
 
 
 // Function to handle scroll events
